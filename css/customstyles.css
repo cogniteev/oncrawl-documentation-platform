@@ -245,8 +245,12 @@ ul#results-container a: hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     float: right;
-    margin-top:10px;
+    margin-top:15px;
+    border-radius:40px;
+    border:none;
+    padding-left:10px;
 }
+
 /* end search */
 
 .filter-options {
@@ -303,7 +307,7 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top:10px;
+    margin-top:15px;
 }
 
 .post-content .rssfeedLink {
