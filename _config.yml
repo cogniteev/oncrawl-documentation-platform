@@ -10,7 +10,7 @@ site_title: OnCrawl Developers
 company_name: Cogniteev
 # this appears in the footer
 
-github_editme_path: cogniteev/oncrawl-documentation-platform/blob/master/pages/
+github_editme_path: cogniteev/oncrawl-documentation-platform/blob/master
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname:

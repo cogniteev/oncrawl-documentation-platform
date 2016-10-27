@@ -13,18 +13,23 @@ topnav_dropdowns:
     - title: Documentation
       folderitems:
         - title: Overview
-          url: /reference_overview.html
+          url: /reference_overview
         - title: OAuth2
-          url: /reference_oauh2.html
+          url: /reference_oauh2
         - title: API Reference
-          url: /reference_api.html
-        - title: GitHub Repo
-          external_url: https://github.com/cogniteev/oncrawl-documentation-platform
+          url: /reference_api
+        - title: Versions
+          url: /versions
+        # - title: GitHub Repo
+        #   external_url: https://github.com/cogniteev/oncrawl-documentation-platform
 
 topnav_right:
 - title: Topnav right
   items:
     - title: Use Cases
+      url: /guides
     - title: API Status
+      url: /status
     - title: Support
+      url: support
 
