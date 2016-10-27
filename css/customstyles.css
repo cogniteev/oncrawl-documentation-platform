@@ -845,8 +845,8 @@ span.soft {
     color: #c0c0c0;
 }
 
-.githubEditButton {
-    margin-bottom:7px;
+a.btn.githubEditButton {
+    border:0px solid transparent;
 }
 
 .endpoint {
