@@ -756,12 +756,6 @@ ol.series li {
     background-color: #FAFAFA;
 }
 
-/*
-a.dropdown-toggle.otherProgLangs {
-    color: #f7e68f !important;
-}
-*/
-
 span.muted {color: #666;}
 
 table code {background-color: transparent;}
@@ -1232,12 +1226,13 @@ hr {
     margin-top: 20px;
 }
 /*------------------Utilities---------------------*/
-a {
+/*a {
   color: inherit;
   font-weight: inherit;
   font-size: inherit;
   text-decoration: none;
 }
+*/
 
 a:hover, a:focus {
   text-decoration: none;
@@ -1247,7 +1242,6 @@ a:hover, a:focus {
   -o-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
-
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
@@ -1798,7 +1792,7 @@ color:#6d3f96;
    Mobile styles
    ========================================================================== */
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 
 .btn-lg {
   font-size: 20px;
@@ -1816,7 +1810,7 @@ color:#6d3f96;
   letter-spacing: 0px;
 }
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -1824,9 +1818,9 @@ color:#6d3f96;
 
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 481px) and (max-width: 767px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -1836,10 +1830,10 @@ color:#6d3f96;
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
-  
+
 }
 
 
@@ -1848,10 +1842,10 @@ color:#6d3f96;
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
-     
+
 
 
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
 
-}   
+}
