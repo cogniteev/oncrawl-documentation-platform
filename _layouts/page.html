@@ -4,7 +4,7 @@ layout: default
 
 <div class="post-header">
   <h1 class="post-title-main">{{ page.title }}
-  {% unless jekyll.environment == "production" or page.github_editme == false %}
+  {% unless page.github_editme == false %}
   {% if site.github_editme_path %}
   <a
     target="_blank"
@@ -74,3 +74,19 @@ layout: default
 {{site.data.alerts.hr_shaded}}
 
 
+<script>
+$(document).ready(function () {
+    $.ajax({
+        type: 'GET',
+        url: 'https://app.oncrawl.com/api/is_alive',
+        data: { get_param: 'value' },
+        success: function (data) {
+            if (data == "all fine") {
+              $('#api_status').html("<i class=\"fa fa-check-circle-o\" aria-hidden=\"true\"></i>");
+            } else {
+              $('#api_status').html("<i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i>");
+            }
+        }
+    });
+});
+</script>

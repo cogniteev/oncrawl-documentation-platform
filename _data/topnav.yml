@@ -27,9 +27,7 @@ topnav_right:
 - title: Topnav right
   items:
     - title: Use Cases
-      url: /guides
-    - title: API Status
-      url: /status
+      url: guides
     - title: Support
       url: support
-
+    - title: API Status <i id="api_status"></i>

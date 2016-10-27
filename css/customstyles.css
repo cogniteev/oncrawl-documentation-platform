@@ -1849,3 +1849,11 @@ color:#6d3f96;
 @media (min-width: 1200px) and (max-width: 3000px) {
 
 }
+
+.fa-check-circle-o {
+  color: #77b300;
+}
+
+.fa-times-circle {
+  color: #e62e00;
+}
