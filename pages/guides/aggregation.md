@@ -1,5 +1,5 @@
 ---
-title: Aggregation
+title: Aggregation Guide
 tags: [guide]
 keywords: guide aggregation
 last_update: October, 27, 2016

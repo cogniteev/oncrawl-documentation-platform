@@ -21,7 +21,7 @@ toc: false
 			    </span>
 			</div>
 			<div class="panel-body">
-			    <h4>{{ page.title }}</h4>
+			    <h4>{{ page.title | remove: " Guide" }}</h4>
 			    <p>{{ page.summary }}</p>
 			    <a
 			      href="{{ page.url | remove: "/" }}"

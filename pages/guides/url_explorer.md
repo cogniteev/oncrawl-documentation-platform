@@ -1,5 +1,5 @@
 ---
-title: URL Explorer
+title: URL Explorer Guide
 tags: [guide]
 keywords: guide url_explorer
 last_update: October, 27, 2016

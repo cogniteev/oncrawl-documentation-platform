@@ -15,7 +15,7 @@ topnav_dropdowns:
         - title: Overview
           url: /reference_overview
         - title: OAuth2
-          url: /reference_oauh2
+          url: /reference_oauth2
         - title: API Reference
           url: /reference_api
         - title: Versions

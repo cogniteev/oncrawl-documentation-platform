@@ -1,6 +1,6 @@
 ---
 title: Support
-tags: [support]
+tags:
 keywords: support
 last_update: October, 27, 2016
 summary: "Provides troubleshooting instructions"

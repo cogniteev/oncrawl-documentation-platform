@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Authentication Guide
 tags: [guide]
 keywords: guide authentication
 last_update: October, 27, 2016
