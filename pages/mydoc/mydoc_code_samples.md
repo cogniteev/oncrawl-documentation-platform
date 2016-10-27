@@ -1,6 +1,5 @@
 ---
 title: Code samples
-tags: [formatting]
 keywords: dcode samples syntax highlighting
 last_updated: July 3, 2016
 datatable: true

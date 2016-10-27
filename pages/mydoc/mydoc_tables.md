@@ -1,6 +1,5 @@
 ---
 title: Tables
-tags: [formatting]
 keywords: datatables, tables, grids, markdown, multimarkdown, jquery plugins
 last_updated: July 16, 2016
 datatable: true

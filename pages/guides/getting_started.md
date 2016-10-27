@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-tags: [guide]
+tags: [guide, getting_started]
 keywords: guide getting-started
 last_update: October, 27, 2016
 summary: "Help you get on track for using OnCrawl API."

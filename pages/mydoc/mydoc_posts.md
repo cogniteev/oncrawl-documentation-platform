@@ -1,6 +1,5 @@
 ---
 title: Posts
-tags: [getting_started, formatting, content_types]
 keywords: posts, blog, news, authoring, exclusion, frontmatter
 last_updated: Feb 25, 2016
 summary: "You can use posts when you want to create blogs or news type of content."
@@ -29,7 +28,6 @@ keywords: pages, authoring, exclusion, frontmatter
 summary: "This is some summary frontmatter for my sample post."
 sidebar: mydoc_sidebar
 permalink: mydoc_pages.html
-tags: content_types
 ---
 
 

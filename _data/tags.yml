@@ -1,5 +1,7 @@
 allowed-tags:
+  - reference
   - getting_started
+  - guide
   - content_types
   - navigation
   - formatting
