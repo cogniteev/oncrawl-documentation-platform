@@ -4,8 +4,8 @@ tags: [reference]
 keywords: reference oauth2
 last_update: October, 24, 2016
 summary: "This describes the API OAuth2 authentication process."
-sidebar: reference_sidebar
-permalink: reference_oauth2.html
+sidebar: mydoc_sidebar
+permalink: reference_oauth2
 folder: reference
 toc: false
 ---

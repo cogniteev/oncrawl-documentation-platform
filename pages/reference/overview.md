@@ -1,11 +1,11 @@
 ---
-title: Overview
+title: Documentation Overview
 tags: [getting_started]
 keywords: reference overview
 last_update: October, 24, 2016
 summary: "Describes the API resources."
-sidebar: reference_sidebar
-permalink: reference_overview.html
+sidebar: mydoc_sidebar
+permalink: reference_overview
 folder: reference
 toc: false
 ---
@@ -23,7 +23,7 @@ Accept: application/vnd.oncrawl.v1
 ## Schema
 
 All API access is over HTTPS, and accessed from the `https://app.oncrawl.com`.
-Most data is sent and received as JSON. Aggregation API uses 
+Most data is sent and received as JSON. Aggregation API uses
 [RISON](https://pypi.python.org/pypi/rison/1.1).
 
 Timestamps are returned in milliseconds since EPOCH.
@@ -31,7 +31,7 @@ Timestamps are returned in milliseconds since EPOCH.
 ## Parameters
 
 Many API methods take optional parameters. For GET requests, any parameters
-not specified as a segment in the path can be passed as an HTTP query 
+not specified as a segment in the path can be passed as an HTTP query
 string parameter.
 
 {# FIXME add curl query when we release such call #}

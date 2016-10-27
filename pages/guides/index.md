@@ -2,7 +2,7 @@
 title: Available Guides
 last_update: October, 27, 2016
 summary: "Overview of available guides"
-sidebar: guides_sidebar
+sidebar: mydoc_sidebar
 permalink: guides
 folder: guides
 toc: false

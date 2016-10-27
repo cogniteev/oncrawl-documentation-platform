@@ -2,7 +2,7 @@
 title: "Reference Pages"
 tagName: reference
 search: exclude
-permalink: tag_guide.html
+permalink: tag_reference.html
 sidebar: other
 folder: tags
 ---

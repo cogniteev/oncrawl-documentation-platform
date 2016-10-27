@@ -3,23 +3,23 @@
 topnav:
 - title: Topnav
   items:
-    - title: Home
-      url: /index.html
+    - title: Documentation
+      url: /reference_overview
 
 #Topnav dropdowns
-topnav_dropdowns:
-- title: Topnav dropdowns
-  folders:
-    - title: Documentation
-      folderitems:
-        - title: Overview
-          url: /reference_overview
-        - title: OAuth2
-          url: /reference_oauth2
-        - title: API Reference
-          url: /reference_api
-        - title: Versions
-          url: /versions
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
+#     - title: Documentation
+#       folderitems:
+#         - title: Overview
+#           url: /reference_overview
+#         - title: OAuth2
+#           url: /reference_oauth2
+#         - title: API Reference
+#           url: /reference_api
+#         - title: Versions
+#           url: /versions
         # - title: GitHub Repo
         #   external_url: https://github.com/cogniteev/oncrawl-documentation-platform
 
