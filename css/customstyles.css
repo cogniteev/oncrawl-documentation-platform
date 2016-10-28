@@ -227,6 +227,7 @@ p.post-meta {font-size: 80%; color: #777;}
 
 ul#results-container a {
     background-color: transparent;
+    color: #77777a;
 }
 
 ul#results-container a: hover {
