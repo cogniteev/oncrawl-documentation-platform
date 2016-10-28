@@ -1513,62 +1513,59 @@ a:hover, a:focus {
 /* ==========================================================================
    Main styles
    ========================================================================== */
-header {
-  background: url(../images/header-bg.jpg) no-repeat center center;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-
+.page-banner {
+    width: 100%;
+    color: #fff;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-.header-info {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  right: 0;
-  margin-left: 0px;
-  margin-bottom: 10%;
-  margin-top:10%;
-}
-
-.signin {
-  font-weight: 500;
+.page-banner--home {
+    background-image: url(/images/header-bg.jpg);
 }
 
 
-.mouse-icon {
-    border: 2px solid #fff;
-    border-radius: 16px;
-    display: block;
-    height: 50px;
-    margin: -100px auto 50px;
-    position: relative;
-    width: 30px;
-    z-index: 10;
+.page-banner__title {
+    font-weight: 700;
+    letter-spacing: -1px;
 }
-.mouse-icon .scroll {
-    animation-delay: 0s;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-name: scrolling;
-    animation-play-state: running;
-    animation-timing-function: linear;
+
+.page-banner__content {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#fff;
 }
-.mouse-icon .scroll {
-    background: #fff none repeat scroll 0 0;
-    border-radius: 10px;
-    height: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 4px;
-    width: 4px;
+
+
+@media (min-width: 750px) {
+    .page-banner {
+        padding: 20px 0;
+    }
+
+    .page-banner > .container {
+        min-height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page-banner__title {
+        font-size: 55px;
+        line-height: 55px;
+    }
 }
+
+@media (max-width: 750px){
+    .illu-header{
+        display:none;
+    }
+}
+
+
 @keyframes scrolling {
 0% {
     opacity: 0;
