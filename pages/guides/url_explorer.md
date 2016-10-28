@@ -1,6 +1,6 @@
 ---
 title: URL Explorer Guide
-tags: [guide]
+#tags: [guide]
 keywords: guide url_explorer
 last_update: October, 27, 2016
 summary: "Describe how to look for URLs of your site."
