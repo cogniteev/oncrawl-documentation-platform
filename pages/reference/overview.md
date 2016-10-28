@@ -145,3 +145,14 @@ curl -X POST \
      -H "x-oncrawl-token: SESSION-TOKEN" \
      https://app.oncrawl.com/session
 ```
+
+### Check API health
+
+You can request API to know if it is up and running.
+
+```
+curl https://app.oncrawl.com/api/is_alive
+```
+
+If it does not return a `200 OK` status code, then it means OnCrawl API service
+is down.
