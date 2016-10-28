@@ -61,7 +61,7 @@ Parameters
 |`client_secret`|`string`|**yes**|The client secret you received from OnCrawl when you created your application|
 |`code`|`string`|no|The code you received as a response of Step 1|
 |`grant_type`|`string`|**yes**|Must be `authorization_code`|
-|`redirect_ur`|`string`|no|Override URL in your application where users will be sent after authorization|
+|`redirect_url`|`string`|no|Override URL in your application where users will be sent after authorization|
 
 Response
 
@@ -100,3 +100,15 @@ the same that those you requested.
 But future developments may allow OnCrawl users to edit
 token scopes. You should be aware of this possibility and prepare
 your application accordingly.
+
+## OAuth Scopes
+
+
+As of now, there are 4 different OAuth scopes available:
+
+* `account:read`: provides capability to read user information
+* `account:write`: provides capability to update user information
+* `project:read`: provides capability to access:
+  * configuration of projects, their configurations and crawls
+  * perform queries and aggregation on crawls
+* `project:write`: provides capability to update projects and related data

@@ -1,0 +1,20 @@
+{
+  "aggs": [
+    {
+      "cols": [
+        "page_group", 
+        "nb_inlinks:sum"
+      ], 
+      "rows": [
+        [
+          "photos", 
+          0.0
+        ], 
+        [
+          "other", 
+          3112553.0
+        ]
+      ]
+    }
+  ]
+}

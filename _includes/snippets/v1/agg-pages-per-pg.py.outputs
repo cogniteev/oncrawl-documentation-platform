@@ -1,0 +1,20 @@
+{
+  "aggs": [
+    {
+      "cols": [
+        "page_group", 
+        "page_count"
+      ], 
+      "rows": [
+        [
+          "photos", 
+          5
+        ], 
+        [
+          "other", 
+          110497
+        ]
+      ]
+    }
+  ]
+}

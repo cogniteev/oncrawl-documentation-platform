@@ -22,7 +22,7 @@ Accept: application/vnd.oncrawl.v1
 
 ## Schema
 
-All API access is over HTTPS, and accessed from the `https://app.oncrawl.com`.
+All API access is over HTTPS, and accessed from the `https://app.oncrawl.com/api`.
 Most data is sent and received as JSON. Aggregation API uses
 [RISON](https://pypi.python.org/pypi/rison/1.1).
 
