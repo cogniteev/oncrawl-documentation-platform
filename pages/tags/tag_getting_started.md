@@ -6,6 +6,7 @@ permalink: tag_getting_started.html
 sidebar: other
 folder: tags
 toc: false
+github_editme: false
 ---
 {% include taglogic.html %}
 
