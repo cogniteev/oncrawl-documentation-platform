@@ -28,7 +28,7 @@ An aggregation query is formed by:
 
 * One or more filters. Each filter selects a set of page and restrict
   the scope on which the aggregation is performed. If more than one filter
-  is given, then the final scope of pages if the conjunction of all filters.
+  is given, then the final scope of pages is the conjunction of all filters.
   A list of available filters can be obtained at `api/{project_id}/quickfilters`
 
 * Zero or more aggregation fields. Each aggregation stage distribute the pages
