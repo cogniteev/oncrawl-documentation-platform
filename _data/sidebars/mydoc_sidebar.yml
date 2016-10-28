@@ -28,8 +28,11 @@ entries:
       - title: OAuth2
         url: /reference_oauth2
         output: web, pdf
-      - title: API Reference
+      - title: Reference
         url: /reference_api
+        output: web, pdf
+      - title: Versions
+        url: /versions
         output: web, pdf
 
   - title: Use Cases
