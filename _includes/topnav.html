@@ -2,7 +2,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container topnavlinks">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -10,8 +10,7 @@
             </button>
             <a class="navbar-brand" href="index.html"><img src="images/oncrawl-developers-logo2.svg" alt="Logo" width="200px"></a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right hidden-xs visible-sm">
                 <!-- entries without drop-downs appear here -->
                 {% for entry in site.data.topnav.topnav %}
                 {% for item in entry.items %}
@@ -28,7 +27,7 @@
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
                 {% for entry in site.data.topnav.topnav_dropdowns %}
                 {% for folder in entry.folders %}
-                <li class="dropdown">
+                <li class="dropdown visible-xs-block visible-sm-block">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         {% for folderitem in folder.folderitems %}
@@ -80,7 +79,6 @@
                     <!--end search-->
                 </li>
             </ul>
-        </div>
         </div>
         <!-- /.container -->
 </nav>
