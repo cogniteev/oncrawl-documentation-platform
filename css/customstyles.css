@@ -315,8 +315,33 @@ li.dropdownActive a {
     color: #248EC2;
 }
 
-footer {
-    font-size: smaller;
+.footer {
+    background: #000;
+    color:#fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer__link:hover {
+    color:#FFF;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        text-align: inherit;
+        padding: 20px 0;
+        left: 0;
+        bottom: 0;
+        height: 328px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        height: 240px;
+    }
 }
 
 /* FAQ page */
@@ -447,19 +472,6 @@ span.projectTitle {
     font-weight: bold;
 }
 
-.footer {
-    text-align: right;
-}
-
-.footerMeta {
-    background-color: whitesmoke;
-    padding: 10px;
-    max-width: 250px;
-    border-radius: 5px;
-    margin-top: 50px;
-    font-style:italic;
-    font-size:12px;
-}
 
 img.screenshotSmall {
     max-width: 300px;
