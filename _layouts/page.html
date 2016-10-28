@@ -73,20 +73,18 @@ layout: default
 
 {{site.data.alerts.hr_shaded}}
 
-
 <script>
 $(document).ready(function () {
-    $.ajax({
-        type: 'GET',
-        url: 'https://app.oncrawl.com/api/is_alive',
-        data: { get_param: 'value' },
-        success: function (data) {
-            if (data == "all fine") {
-              $('#api_status').html("<i class=\"fa fa-check-circle-o\" aria-hidden=\"true\"></i>");
-            } else {
-              $('#api_status').html("<i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i>");
-            }
-        }
-    });
+  $.ajax({
+    type: 'GET',
+    url: '{{ site.api_healthcheck }}',
+    data: { get_param: 'value' },
+    success: function () {
+      $('#api_status').html("<i class=\"fa fa-check-circle-o\" aria-hidden=\"true\"></i>");
+    },
+    error: function () {
+      $('#api_status').html("<i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i>");
+    }
+  });
 });
 </script>

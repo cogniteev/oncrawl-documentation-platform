@@ -114,5 +114,20 @@ layout: none
   <script src="js/wow.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
+  <script>
+  $(document).ready(function () {
+    $.ajax({
+      type: 'GET',
+      url: '{{ site.api_healthcheck }}',
+      data: { get_param: 'value' },
+      success: function () {
+        $('#api_status').html("<i class=\"fa fa-check-circle-o\" aria-hidden=\"true\"></i>");
+      },
+      error: function () {
+        $('#api_status').html("<i class=\"fa fa-times-circle\" aria-hidden=\"true\"></i>");
+      }
+    });
+  });
+  </script>
   </body>
 </html>

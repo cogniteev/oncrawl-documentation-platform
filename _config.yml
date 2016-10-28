@@ -17,6 +17,8 @@ google_analytics: UA-46280680-2
 
 company_url: http://futurewww.oncrawl.com
 
+site.api_healthcheck: https://app.oncrawl.com/api/is_alive
+
 disqus_shortname:
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
