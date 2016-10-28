@@ -625,7 +625,7 @@ a.fa.fa-envelope-o.mailto {
 }
 
 h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
+h4 {font-size:18px;}
 
 .alert, .callout {
     overflow: hidden;
@@ -1183,10 +1183,6 @@ h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, sma
   font-family: 'Roboto', sans-serif;
 }
 
-p, .lead {
-    font-family: 'Roboto', sans-serif;
-}
-
 h1 {
   font-size: 55px;
   line-height: 55px;
@@ -1218,7 +1214,7 @@ h3 {
   font-weight: 400;
 }
 
-p {
+p, .lead{
   font-size: 17px;
   line-height: 22px;
   color: #929496;
@@ -1227,8 +1223,10 @@ p {
 
 
 .service-heading{
-  font-weight: 700;
-  margin:30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color:#000;
 }
 
 hr {
@@ -1539,6 +1537,10 @@ a:hover, a:focus {
     color:#fff;
 }
 
+.service_image{
+    width: 20%;
+    margin-bottom: 30px;
+}
 
 @media (min-width: 750px) {
     .page-banner {
