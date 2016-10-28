@@ -8,34 +8,16 @@ permalink: reference_api
 folder: reference
 
 ---
-  <!-- Embed Seed -->
-  <script src="https://api.apiary.io/seeds/embed.js"></script>
-
-  <!-- /Embed Seed -->
-
-
-  <!-- Embed -->
-  <script>
-    var embed = new Apiary.Embed({
-      subdomain: 'oncrawlv1',
-      theme: {
-    tableOfContents: {
-
-      section: {
-        item: {
-          backgroundColor: '#FFC0CB',
-
-          $hover: {
-            backgroundColor: '#FFC0CB'
-          },
-
-          $selected: {
-            backgroundColor: 'black'
-          }
-        }
-      }
+<script src="https://api.apiary.io/seeds/embed.js"></script>
+<script>
+  var embed = new Apiary.Embed({
+    subdomain: 'oncrawlv1',
+    preferences: {
+      collapseMachineColumnByDefault: true,
+      displayHttpMethods: true,
+      fluidHumanColumn: true,
+      displayUriParametersInHumanColumn: false,
+      defaultHost: 'production'
     }
-  }
-    });
-  </script>
-  <!-- /Embed -->
+  });
+</script>
