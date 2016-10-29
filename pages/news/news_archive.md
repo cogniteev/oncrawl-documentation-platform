@@ -1,8 +1,8 @@
 ---
-title: News
+title: News Archive
 sidebar: mydoc_sidebar
 keywords: news, blog, updates, release notes, announcements
-permalink: news_archive.html
+permalink: news_archive
 toc: false
 folder: news
 ---
@@ -30,12 +30,5 @@ folder: news
             {% endfor %}
         </ul>
     </section>
-
-
-    <hr/>
-
-
-
-
-
     </div>
+</div>

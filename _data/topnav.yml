@@ -30,4 +30,6 @@ topnav_right:
       url: guides
     - title: Support
       url: support
+    - title: News <i class="fa fa-rss" aria-hidden="true"></i>
+      url: news
     - title: API Status <i id="api_status"></i>
