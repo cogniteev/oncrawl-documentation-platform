@@ -14,4 +14,4 @@ aggregation = {
 resp = requests.post('https://app.oncrawl.com/api/crawls/{}/aggs'.format(crawl_id),
                      headers={'x-oncrawl-token': token},
                      json=aggregation)
-print json.dumps(resp.json(), indent=2)
+print json.dumps(resp.json(), indent=2, sort_keys=True)
