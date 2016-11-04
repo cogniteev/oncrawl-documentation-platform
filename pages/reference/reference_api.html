@@ -12,12 +12,113 @@ folder: reference
 <script>
   var embed = new Apiary.Embed({
     subdomain: 'oncrawlv1',
+    
     preferences: {
       collapseMachineColumnByDefault: true,
       displayHttpMethods: true,
       fluidHumanColumn: true,
       displayUriParametersInHumanColumn: false,
       defaultHost: 'production'
-    }
+
+    },
+
+    theme: {
+        fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif',
+
+        tableOfContents: {
+          backgroundColor: '#fff',
+          padding: '0px',
+
+          section: {
+            paddingBottom: '10px',
+            paddingTop: '10px',
+            marginBottom: '10px',
+            
+            title: {
+              color: '#000',
+              backgroundColor: '#f1f1f1',
+              paddingTop: '10px',
+              paddingBottom: '10px',
+              paddingLeft: '20px',
+              fontWeight: 'bold',
+
+              $hover: {
+                backgroundColor: '#0caee0',
+
+                text: {
+                  color: '#fff'
+                }
+              },
+
+              $selected: {
+                text: {
+                  fontWeight: 'bold',
+                  backgroundColor: '#000',
+                  color: '#fff',
+                  paddingLeft: '20px',
+                }
+              }
+            },
+
+            item: {
+              color: '#000',
+              fontWeight: 'normal',
+              backgroundColor: '#f1f1f1',
+              paddingTop: '10px',
+
+              text: {
+                paddingLeft: '20px',
+              },
+
+              $hover: {
+                text: {
+                  color: '#fff',
+                  backgroundColor: '#8D8D8D',
+                  fontWeight: 'normal',
+                  paddingLeft: '20px',
+                }
+              },
+
+              $selected: {
+                text: {
+                  fontWeight: 'bold',
+                  backgroundColor: '#000',
+                  color: '#fff',
+                  paddingLeft: '20px',
+                }
+              },
+
+              subitems: {
+                color: '#FC7550',
+                border: 'none',
+                marginTop: '0px',
+                marginBottom: '20px',
+                paddingRight: '20px',
+
+                subitem: {
+                  margin: '0px',
+                  padding: '0px',
+                  paddingTop: '5px',
+                  paddingBottom: '5px',
+                  border: 'none',
+
+                  $hover: {
+                    text: {
+                      color: '#000'
+                    }
+                  },
+
+                  $selected: {
+                    text: {
+                      fontWeight: 'bold'
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      
   });
 </script>
