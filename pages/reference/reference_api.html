@@ -23,7 +23,7 @@ folder: reference
     },
 
     theme: {
-        fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif',
+        fontFamily: 'Roboto, Arial, sans-serif',
 
         tableOfContents: {
           backgroundColor: '#fff',
@@ -117,7 +117,162 @@ folder: reference
               }
             }
           }
-        }
+        },
+
+//start content
+       humanColumn: {
+          content: {
+            padding: '10px',
+
+            apiName: {
+              padding: '10px',
+              fontWeight: '900',
+              color: '#000',
+              margin: '0px',
+              padding: '20px',
+              border: 'none',
+
+            },
+
+            section: {
+              padding: '0px',
+              paddingTop: '20px',
+              paddingLeft: '20px',
+              paddingRight: '20px',
+              margin: '0px',
+
+              title: {
+                margin: '0px',
+                marginBottom: '20px',
+                padding: '0px',
+                paddingTop: '10px',
+                paddingBottom: '10px',
+                fontWeight: '100',
+                fontSize: '40px',
+
+                text: {
+                  width: 'auto',
+                  color: '#000',
+                  paddingBottom: '3px',
+                }
+              },
+
+              apiDescription: {
+                p: {
+                  a: {
+                    textDecoration: 'none',
+                    paddingBottom: '2px',
+                    color: '#FF6B6B',
+
+                    $hover: {
+                      color: '#C44D58',
+                    }
+                  }
+                },
+
+                h2: {
+                  color: '#C7F464'
+                },
+
+                h3: {
+                  color: '#FF6B6B'
+                },
+
+                code: {
+                  backgroundColor: 'transparent',
+                  border: '1px solid #FF6B6B',
+                  borderRadius: '0px',
+                  color: 'white'
+                },
+
+                pre: {
+                  code: {
+                    color: 'white'
+                  }
+                }
+              },
+
+              resourceGroups: {
+                resourceGroup: {
+                  margin: '0px',
+                  marginTop: '20px',
+                  padding: '0px',
+                  color: '#556270',
+
+                  name: {
+                    margin: '0px',
+                    marginBottom: '20px',
+                    padding: '20px',
+                    paddingBottom: '0px',
+                    border: 'none',
+                    color: '#FF6B6B'
+                  },
+
+                  description: {
+                    margin: '0px',
+                    padding: '0px',
+                    paddingBottom: '20px',
+                    paddingLeft: '20px'
+                  },
+
+                  resources: {
+                    resource: {
+                      name: {
+                        padding: '10px',
+                        paddingLeft: '20px',
+                        color: '#4ECDC4'
+                      },
+
+                      description: {
+                        paddingLeft: '20px'
+                      },
+
+                      actions: {
+                        action: {
+                          margin: '0px',
+                          marginBottom: '10px',
+                          padding: '0px',
+
+                          invitation: {
+                            border: 'none',
+                            color: '#556270',
+
+                            text: {
+                              padding: '0px',
+                              paddingTop: '10px',
+                              paddingBottom: '10px',
+                              paddingLeft: '30px'
+                            }
+                          },
+
+                          description: {
+                            borderLeft: '10px solid #FF6B6B',
+                            padding: '20px',
+                            fontSize: '16px',
+                            color: '#556270'
+                          },
+
+                          $hover: {
+                            invitation: {
+
+                              text: {
+                                color: '#556270'
+                              }
+                            },
+
+                            description: {
+                              borderLeft: '10px solid #FF6B6B'
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        } //end content
       }
       
   });
