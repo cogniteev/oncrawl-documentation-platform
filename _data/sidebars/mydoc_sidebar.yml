@@ -47,9 +47,9 @@ entries:
       - title: Authentication
         output: web, pdf
         url: /guide_authentication
-      # - title: URL Explorer
-      #   output: web, pdf
-      #   url: /guide_url_explorer
+      - title: URL Explorer
+        output: web, pdf
+        url: /guide_url_explorer
       - title: Aggregation
         output: web, pdf
         url: /guide_aggregation
