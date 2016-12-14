@@ -1874,3 +1874,12 @@ color:#6d3f96;
   /*color: #ff6600;*/
   color: #ff8c00;
 }
+
+/* APIARY */
+
+.tocColumnTitleText{
+    background-color:#000;
+    height:30px;
+    padding-top:10px;
+    padding-left:10px;
+}
