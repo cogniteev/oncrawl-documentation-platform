@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "columns": [
+      "url", 
+      "inrank", 
+      "status_code", 
+      "meta_robots", 
+      "clusters"
+    ], 
+    "in_cr": false, 
+    "total_hits": 2, 
+    "total_pages": 1
+  }, 
+  "oql": {
+    "field": [
+      "nearduplicate_content", 
+      "equals", 
+      "true"
+    ]
+  }, 
+  "urls": [
+    {
+      "clusters": "th0_ef1be8d0be2723d5d2b95eaef011283fc219f3f0967f37352d39615addbbbcbe", 
+      "inrank": 4, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/blog/page/9/"
+    }, 
+    {
+      "clusters": "th0_ef1be8d0be2723d5d2b95eaef011283fc219f3f0967f37352d39615addbbbcbe", 
+      "inrank": 3, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/blog/page/7/"
+    }
+  ]
+}

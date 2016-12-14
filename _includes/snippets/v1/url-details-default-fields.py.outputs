@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "columns": [
+      "url", 
+      "inrank", 
+      "status_code", 
+      "meta_robots"
+    ], 
+    "in_cr": false, 
+    "total_hits": 307, 
+    "total_pages": 31
+  }, 
+  "oql": {
+    "field": [
+      "fetched", 
+      "equals", 
+      true
+    ]
+  }, 
+  "urls": [
+    {
+      "inrank": 10, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/"
+    }, 
+    {
+      "inrank": 9, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/features/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/2016-link-building-state-of-play/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/3-seo-tools-try-2016/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/pagination-and-seo/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/seo-elements-to-check-when-launching-your-new-website/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/blog/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/chrome-extension/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": "noodp", 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/contact/"
+    }, 
+    {
+      "inrank": 8, 
+      "meta_robots": null, 
+      "status_code": 200, 
+      "url": "http://www.oncrawl.com/about/"
+    }
+  ]
+}
