@@ -21,7 +21,7 @@ your application.
 ### Register your application
 
 OnCrawl API is still in beta. To register your application, please [fill the
-form](https://docs.google.com/forms/d/e/1FAIpQLScCm9P2vSWTk0ZN1yTt9iyggizVdJ-T15C3-l_D1P4JJRZO_g/viewform?entry.602248975=My+OnCrawl+API+OAuth+application&entry.1442365639=seoguru&entry.816404965=My+app+allows+my+customer+to+access+OnCrawl+API's+data+through+my+customers+website&entry.1037603334=https://seo4ever.co/logo.png&entry.393669484=account:read&entry.393669484=project:read&entry.872577371=https://seo4ever.co/oauth_redirect&entry.481142999=https://seo4ever.co/oauth_redirect).
+form](https://goo.gl/voTCjm).
 
 We will then provide you a consumer key and consumer secret. Those keys are
 required to perform an OAuth2 challenge to retrieve a session token, described
