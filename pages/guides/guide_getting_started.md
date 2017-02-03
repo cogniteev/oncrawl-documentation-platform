@@ -20,10 +20,8 @@ your application.
 
 ### Register your application
 
-OnCrawl API is still in beta. To register your application, please fill the
-form below.
-
-<script>(function(t,e,c,n){var o,s,d;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(c),s=o[o.length-1],d=e.createElement(c),d.type="text/javascript",d.async=!0,d.id=n,d.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/hCdQ29EuQT659xkYmZXEu_2BSJu5bbSt5vZwcK5BYzkUmpdLdN4OOpd_2F6GefJvr7aG.js"].join(""),s.parentNode.insertBefore(d,s))})(window,document,"script","smcx-sdk");</script>
+OnCrawl API is still in beta. To register your application, please [fill the
+form](https://docs.google.com/forms/d/e/1FAIpQLScCm9P2vSWTk0ZN1yTt9iyggizVdJ-T15C3-l_D1P4JJRZO_g/viewform?entry.602248975=My+OnCrawl+API+OAuth+application&entry.1442365639=seoguru&entry.816404965=My+app+allows+my+customer+to+access+OnCrawl+API's+data+through+my+customers+website&entry.1037603334=https://seo4ever.co/logo.png&entry.393669484=account:read&entry.393669484=project:read&entry.872577371=https://seo4ever.co/oauth_redirect&entry.481142999=https://seo4ever.co/oauth_redirect).
 
 We will then provide you a consumer key and consumer secret. Those keys are
 required to perform an OAuth2 challenge to retrieve a session token, described
