@@ -59,9 +59,9 @@ Parameters
 |Name|Type|Required|Description
 |`client_id`|`string`|**yes**|The client ID you received from OnCrawl when you created your application|
 |`client_secret`|`string`|**yes**|The client secret you received from OnCrawl when you created your application|
-|`code`|`string`|no|The code you received as a response of Step 1|
+|`code`|`string`|**yes**|The code you received as a response of Step 1|
 |`grant_type`|`string`|**yes**|Must be `authorization_code`|
-|`redirect_url`|`string`|no|Override URL in your application where users will be sent after authorization|
+|`redirect_uri`|`string`|**yes**|Specify URL in your application where users will be sent after authorization|
 
 Response
 
