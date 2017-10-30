@@ -27,7 +27,7 @@ An URL explorer query is formed by:
 * One or more filters. Each filter selects a set of page and restrict
   the scope of pages to return. If more than one filter
   is given, then the final scope of pages is the conjunction of all filters.
-  A list of available filters can be obtained at `/api/{project_id}/quickfilters`
+  A list of available filters can be obtained at `/api/projects/{project_id}/quickfilters`
 
 * A comma separated list of fields to return for each page.
   The list of available fields depends on each crawl and can be obtained at
